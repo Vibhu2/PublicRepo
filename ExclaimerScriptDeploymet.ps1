@@ -18,6 +18,7 @@ Start-Process -FilePath 'C:\itconnexx-a\Exclaimer.CloudSignatureUpdateAgent.Inst
 #cmd.exe --% msiexec /i "C:\itconnexx-a\Exclaimer.CloudSignatureUpdateAgent.Install.msi" ALLUSERS=1 /quiet
 Start-Sleep -Seconds 60
 Remove-Item 'C:\itconnexx-a\Exclaimer.CloudSignatureUpdateAgent.Install.msi'
-Remove-Item "C:\itconnexx-a\install.bat"
+Remove-Item 'C:\itconnexx-a\ExclaimerScriptDeploymet.xml'
+Remove-Item 'C:\itconnexx-a\ExclaimerScriptDeploymet.ps1'
 
  #cmd --%'C:\itconnexx-a\Exclaimer.CloudSignatureUpdateAgent.Install.msi /Quiet'
