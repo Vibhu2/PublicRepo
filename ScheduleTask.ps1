@@ -1,6 +1,7 @@
 ﻿Set-ExecutionPolicy Bypass -scope Process -Force
 $Installpath= "C:\itconnexx-a"
 $path=Test-Path "C:\itconnexx-a"
+$ErrorActionPreference= 'silentlycontinue'
 
 if (!(test-path $path) )
 {New-Item C:\itconnexx-a -ItemType Directory}
