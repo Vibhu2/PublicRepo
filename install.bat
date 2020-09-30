@@ -1,5 +1,2 @@
-@eecho off
-
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'C:\itconnexx-a\ExclaimerScriptDeploymet.ps1'"
-Exit
-
+@ECHO OFF
+PowerShell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -file "C:\itconnexx-a\ImprovedDeployment.ps1"
